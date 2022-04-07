@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo "In deploy stage"
+                echo "In deploy stages"
             }
         }
         stage ('Package') {
