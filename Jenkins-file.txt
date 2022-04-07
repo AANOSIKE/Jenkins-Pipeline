@@ -11,12 +11,12 @@ pipeline {
         }
         stage('Test'){
             steps {
-                eco "In test stage
+                echo "In test stage"
             }
         }
         stage('Deploy') {
             steps {
-                echo "In deploy stages"
+                eco "In deploy stages"
             }
         }
         stage ('Package') {
