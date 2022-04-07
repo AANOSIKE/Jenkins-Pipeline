@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                echo "In test stage
+                eco "In test stage
             }
         }
         stage('Deploy') {
